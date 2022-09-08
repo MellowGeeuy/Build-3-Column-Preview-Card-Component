@@ -1,0 +1,88 @@
+
+body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        Font-size: 15px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 12px;
+    margin: 2rem;
+    overflow: hidden;
+}
+.box {
+    padding: 40px;
+}
+
+.box h2{
+    color: hsl(0, 0%, 95%);
+}
+.box p {
+    color:  hsla(0, 0%, 100%, 0.75);
+    line-height: 1.6;
+    
+}
+
+.box a {
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    padding: 13px 27px;
+    border-radius: 30px;
+    margin-top: 60px;
+    display: inline-block;
+    border: 2px solid hsl(0, 0%, 95%);
+    transition: all .4s ease-in-out;
+}
+
+.box a:hover {
+    color: hsl(0, 0%, 95%);
+    background: transparent;
+}
+
+.box1 {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.box2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.box3 {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.box1 a{
+    color: hsl(31, 77%, 52%);
+}
+
+.box2 a{
+    color: hsl(184, 100%, 22%);
+}
+
+.box3 a{
+   color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width:768px){
+    .wrapper {
+        grid-template-columns: 1fr;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width:425px){
+    .wrapper {
+        margin: 1rem;
+    }
+
+}
+
