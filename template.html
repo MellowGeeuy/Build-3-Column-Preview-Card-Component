@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Report</title>
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        @font-face{
+            font-family:'KingPowerText-Regular';
+            src: local(),
+            url('/kpgdx_assessment-main/KingPowerHeadline/KingPowerText-Regular.ttf') format('truetype'), 
+        }
+
+        body {
+            font-family: 'KingPowerText-Regular' sans-serif;
+        }
+
+        :root {
+            --maincolor : #01007a;
+            --red : #e93423;
+            --lred : #f1a3a1;
+            --green : #4ead5b;
+            --lgreen : #9fcf62;
+        }
+        
+
+        /* header */
+
+        header {
+            background:#01007a;
+            color: white;
+            padding:12px 0; 
+            position: fixed;
+            width:100%;     
+        }
+
+        header h1 {
+            font-size:22px; 
+            font-weight: bold;
+            text-align: center;
+            padding-bottom: 12px;
+            
+        }
+
+        @page {
+            @top-center {
+                content: element(header);
+                width: 100%;    
+        }
+        @bottom-right {
+                content: "หน้า " counter(page) "/" counter(pages);
+        }
+        
+        size:A4;
+    }
+
+        /* self Table Example  code */
+
+        .self-average-tbl {
+            padding: 0 32px;
+            font-size: var(--plainsize);
+            margin: 0 auto;
+            border-spacing: 0;
+
+        }
+
+        .self-average-tbl th, .self-average-tbl td {
+        border: 1px solid #333;
+        }
+
+        .self-average-tbl thead tr th:nth-child(2) {
+        background-color: #ff8686;
+        }
+
+        .self-average-tbl thead tr th:nth-child(3) {
+        background-color: #a9ff9c;
+        }
+
+        .sub-avarage-tbl-1 td:nth-child(2) {
+            background-color: #f94040;
+        }
+
+        .sub-avarage-tbl-1 td:nth-child(3) {
+            background-color: #4cc53a;
+        }
+       tr {
+            border-style: dotted;
+        }
+        /* page Number */
+
+    .space {
+        width: 100%;
+        height: 80px;
+    }
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <h1>KPGDX</h1>
+    <span>รายงานการประเมินความสามารถที่จำเป้นต่อความสำเร็จในการทำงานของคุณ</span>
+    <span>{{ name }}</span>
+    </header>
+
+<section class="khob">
+    <!-- Section1 -->
+    <div class="textbox_1">
+        <p style="color: #01007a; font-weight: bold;">เกี่ยวกับรายการฉบับนี้</p>
+        <p>รายงานฉบับนี้เป้นการสรุปผลการประเมินความสามารถที่จำเป็นต่อความสำเร็จในการทำงานทั้ง 6 ด้าน เพื่อเป็็นการเตรียมความพร้อมบุลากรของ คิง เพาเวอร์ ในการขับเคลื่อน การปฏิรูปด้านดิจิทัลขององค์กร ซึ่งครอบคลุมการประเมินตนเองในแต่ละความสามารถโดยการประเมินเกิดขึ้นในช่วงวันที่ 24 ก.ค. 2566 - 18 ส.ค. 2566 </p>
+    </div>    
+
+    <!-- Section2 -->
+    <div class="textbox_2">
+        <p style="color:#01007a;font-weight: bold;font-family: 'qq';">ผลการประเมิน</p>
+        <p>เมื่อพิจารณาพฤติกรรมที่ระบุอยู่ใน 5 ระดับความเชี่ยวชาญของความสามารถทั้ง 6 ด้านที่จำเป้นในการขับเคลื่อนการปฏิรูปด้านดิจิทัล ท่านได้เลือกระดับความเชี่ยวชาญในระดับสูงสุดที่ท่านมีการแสดงออกทางพฤติกรรมในช่วง 1 ปีที่ผ่านมา พร้อมทั้งเหตุผลสนับสนุนประกอบการประเมิน</p>
+    </div>
+
+    <!-- Section3 -->
+    <div class="textbox_3">
+        <p>จากการเปรียบเทียบระดับความเชี่ยวชาญ ที่ท่านประเมินตนเอง (S หรือ Self) กับระดับความเชี่ยวชาญที่องค์กรคาดหวัง (E หรือ Expected) และค่าเฉลี่ยระดับความเชียวชสญของเพื่อนพนักงานที่ถูกคาดหวังในระดับความเชี่ยวชาฐเดียวกัน (A หรือ Avarage)
+            รายงานฉบับนี้จะระบุจุดอ่อนจุดแข็งของท่าน พร้อมทั้งอันดับความเร่งด่วนในการพัฒนาในกรณีของจุดอ่อนตามหลักการดังนี้ 
+        </p>
+    </div>
+
+
+    <!-- Self Table -->
+    <table class="self-average-tbl">
+        <thead>
+          <tr>
+            <!-- col1 -->
+            <th>Self > หรือ = Average</th>
+            <!-- col2 -->
+            <th>จุดที่ต้องเร่งพัฒนาเป็นอันถัดไป</th>
+            <!-- col3 -->
+            <th>จุดแข็งที่สามารถนำมาใช้ประโยชน์</th>
+          </tr>
+        </thead>
+
+        <tbody class="sub-avarage-tbl-1">
+          <tr>
+            <td>Self < หรือ = Average</td>
+            <td>จุดอ่อนที่ต้องเร่งพัฒนาเป้นอันดับแรก</td>
+            <td>จุดแข็งที่สามารถพัฒนาต่อยอด</td>
+          </tr>
+        </tbody>
+
+        <tbody class="sub-avarage-tbl-2">
+            <tr>
+              <td>row1</td>
+              <td>row2</td>
+              <td>row3</td>
+            </tr>
+          </tbody>
+      </table>
+
+      <!-- Section4 -->
+      <div class="textbox_4">
+        <p>โดยท่านสามารถใช้ผลการประเมินนี้ปรักอบการหารือกับหัวหน้างานในการวางแผนพัฒนารายบุคคุลของท่านในลำดับถัดไป ทั้งนี้ ท่านสามารถอ้างอิงหลักสูตรออนไลน์ของไบร์ทเทอร์บีบนระบบ {{ name }} ที่สามารถใช้พัฒนาความสามารถแต่ละด้านในหน้าที่ 2</p>
+      </div>
+
+<!-- 1 table -->
+{{ tables }}
+    <p>¹ค่าเฉลี่ยระดับความเชี่ยวชาญของเพื่อนพนักงานที่ถูกคาดหวังในระดับความเชี่ยวชาญกับท่านทำการประเมินมา</p>
+
+
+    <div style="page-break-inside: avoid;">
+        {{ comment_table}}
+    </div>
+
+    <div style="page-break-inside: avoid;">
+        {{ learning_table }}
+    </div>
+
+    <br>
+
+    <footer style="font-size: 12px; color: lightslategray;">© IRIS Consulting 2012 -2023</footer>
+    <!-- page number -->
+
+</section>
+
+
+</body>
+</html>
+
+
+

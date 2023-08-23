@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "iris-kpgdx-assessment",
+  "private_key_id": "5526efd85250629b04f6e24821dcf22843d5c8b3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCk3nLlYKbmv35L\nTiJooli9MWNNrNV4mVy43UNDyXuKDQnAszhsUNYI4Wi81RKfg8uRdrr3BGMcNiPf\nJvlSclXyyFbRJ3T3Ku1dmsDjFIdDUElzWKruY1wWpZkm5UqEJge4FWyASfwac9Ku\nggyel4uBB5RF2lO5Lq/lfdJHyscBNid8VET2YuEttZ+RVT7t8p3u0xSWUkZfvw1C\n6rj6enweg9weUCpcQitibiSar2w2Z4vgznKl3De8RZErba2N2lZMP64OcLDYWnON\nVxHBwXzaFUEH/cyDiC/1G69VZqTHloLebytqss4QSeM011phPFnKdW0VyYSoYeD9\nAswc0/mFAgMBAAECggEAEgux0nQx0IVFSEN/y1QkbRDq0vsH9/CmutVSd35Q4gYV\n+zGitg24X7XMcQl2xbRMo9oLEjPjZUMdH1/KCmwusX7xgb3VNPijN+D9xofeBlAo\nufy1OO1HNx4JFWjOLzNlGju+FIyvO3X8qX0ymb6cq72DTTdd0qHO6Z+hVJpYDe8M\n2xu9gn6V9c8BwVFrjk2LqrK/vmnI53RFvaH2aO/G6IaoIdQMeHvcOWLMsjCBE5HA\nMjlmkS8GSt/IQ7iPnQr9njAyYVsNL+mLVZn3fIaL7rdcyy1i4WY6ah5wR45gZauH\nVEr87aeZVewx6lI6hEAEV5g+ULrcvxmU9BIKm12+QQKBgQDouSqcT6/Ty93AqpqJ\n5PskcJQLtwMJHHJqng64bCkQc/JD3hOaP2AyJKucq6L5xVZj3MHJEuKC4NwHBttg\n05yy1X4nRjTvKrAcxKdDPINBHeBrpcwlDDOo8hQBiXYhFIvvVKThqztP3XU33bjF\nhS5GFev+THkOySxGji1vF9k5wwKBgQC1W+KL+UDuM2oojJZ2/u9QqF3getp+UCcM\nl6RHu5ZTxLtBJ9HYkE8OwI340IEyJ05//7W/FbneL+T0ajRYhMJNS6DExpywWOqm\nwUPM9NlvUYBdw0gu1lzcda0W1nS0FxzD47xZni/eNzOOjr1WlE25Bk/uXvhs84oo\nUORBtCuDFwKBgCmCBTiV+e1TujyH8UJRBf4s2irwvGjemwWrJUL9f6GAnKBANszX\nKugmpDkwX8Qez1bGZAXiCWaAhp32OiCd/Z/j9jk5C23w9jJbXN3gKCTwGDv6+VtO\nPtSOQMU5aElkKcVJGpNpgA2xmRuavz7zjxpPBKV5rEnX1b7L0wyyezsTAoGAZT8N\nw4z8Rb7oVgjee0IpgkLsXcTYM8o1cp85tF4yN0POMjqzuQ4fRKIU4EIuzjwJZAXy\nheHwKO1eCWE9Jem/u30sHI6wrPaG0V91pXdP6Ah8/Ftn8dX0c5MydVx2PI/mnCmI\nXhOkr47rtntTkoEqvs+aUf4s/E4d5BH8y/10iTMCgYBS+ehnInGRYFhGNg4mwbI8\n5AKnanoueDYqAoSpdUsjmBMZSV2DLkQPAU1hjF9oCBsKx/XyhK3s5itN5skFbYgb\nZos3NQvKgTGHS7AE4iItEnkMH87Qgt79RgE1bnuVFXJsrOHq7TIgM2zIds2F023t\nFfOGdbsTBRBMd2snLjCSZg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "iris-kpgdx-assessment@iris-kpgdx-assessment.iam.gserviceaccount.com",
+  "client_id": "102200459165547998894",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/iris-kpgdx-assessment%40iris-kpgdx-assessment.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
